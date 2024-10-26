@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JumperAI Game - Module1</title>
+    <title>JumperAI Game - Module5</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -128,7 +128,7 @@
         }
 
         function updateGameFrameSrc(token) {
-            const gameFrame = document.getElementById('module-4-frame');
+            const gameFrame = document.getElementById('module-5-frame');
             const gameUrlWithToken = `${GAME_URL}?token=${encodeURIComponent(token)}`;
             console.log('Updating game frame src with new token');
             gameFrame.src = gameUrlWithToken;
